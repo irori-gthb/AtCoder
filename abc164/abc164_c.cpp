@@ -15,6 +15,6 @@ int main() {
     st.insert(s);
   }
 
-  cout << s.size() << endl;
+  cout << st.size() << endl;
   return 0;
 }
