@@ -7,7 +7,7 @@ int main() {
   int N;
   cin >> N;
 
-  rep(i, N) {
+  rep(i, N + 1) {
     if (N == (int)(i * 1.08)) {
       cout << i << endl;
       return 0;
