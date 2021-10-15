@@ -7,6 +7,9 @@ int main() {
   int A, B, C;
   cin >> A >> B >> C;
 
-  cout << A + B + C - 3 << endl;
+  if (A * B * C % 4 == 0)
+    cout << 2 << endl;
+  else
+    cout << 1 << endl;
   return 0;
 }
